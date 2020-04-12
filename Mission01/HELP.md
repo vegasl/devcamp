@@ -1,7 +1,7 @@
 # Read Me First
 The following was discovered as part of building this project:
 
-* The original package name '.ktbdevtraining' is invalid and this project uses 'ktbdevtraining' instead.
+* The original package name '.Mission01' is invalid and this project uses 'Mission01' instead.
 
 # Getting Started
 
