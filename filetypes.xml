@@ -1,0 +1,12 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <extensionMap>
+      <mapping pattern="HelloWorldController" type="CLASS" />
+      <mapping pattern="mission1Controller" type="CLASS" />
+      <mapping pattern="mission1" type="CLASS" />
+      <mapping pattern="Mission1" type="CLASS" />
+      <mapping pattern="helloWorldController" type="JAVA" />
+      <mapping pattern="Mission 1" type="JAVA" />
+    </extensionMap>
+  </component>
+</application>
