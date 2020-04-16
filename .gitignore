@@ -91,3 +91,18 @@ fabric.properties
 .idea/**/markdown-navigator/
 
 # End of https://www.gitignore.io/api/intellij
+
+colors.scheme.xml
+debugger.xml
+filetypes.xml
+find.xml
+github.xml
+lombok-plugin.xml
+markdown.xml
+project.default.xml
+studioFlags.xml
+vcs.xml
+wsl.distributions.xml
+keymaps
+_windows
+codestyles
