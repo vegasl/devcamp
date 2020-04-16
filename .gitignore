@@ -103,6 +103,6 @@ project.default.xml
 studioFlags.xml
 vcs.xml
 wsl.distributions.xml
-keymaps
-_windows
-codestyles
+keymaps/*
+_windows/*
+codestyles/*
