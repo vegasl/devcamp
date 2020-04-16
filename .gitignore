@@ -103,6 +103,7 @@ fabric.properties
 /studioFlags.xml
 /vcs.xml
 /wsl.distributions.xml
-/keymaps
-/_windows
-/codestyles
+/editor.xml
+keymaps/
+_windows/
+codestyles/
