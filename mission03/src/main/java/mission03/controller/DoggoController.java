@@ -1,5 +1,7 @@
-package mission03;
+package mission03.controller;
 
+import mission03.model.Doggo;
+import mission03.service.DoggoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -19,6 +21,15 @@ public class DoggoController {
     @GetMapping()
     public List<Doggo> getDoggo() {
         return doggoService.retrieveDoggo();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<?> getDoggo(@PathVariable Integer id) {
+        Optional<Doggo> doggo = doggoService.retrieveDoggo(id);
+        if(doggo.isEmpty()) {
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(doggo);
     }
 
     @PostMapping()

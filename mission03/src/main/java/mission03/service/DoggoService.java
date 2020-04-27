@@ -1,5 +1,7 @@
-package mission03;
+package mission03.service;
 
+import mission03.repository.DoggoRepository;
+import mission03.model.Doggo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
@@ -18,6 +20,10 @@ public class DoggoService {
 
     public List<Doggo> retrieveDoggo() {
         return (List<Doggo>) doggoRepository.findAll();
+    }
+
+    public Optional<Doggo> retrieveDoggo(Integer id) {
+        return doggoRepository.findById(id);
     }
 
     public Doggo createDoggo(Doggo doggo) {
